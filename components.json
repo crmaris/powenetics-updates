@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "_comment": "Update manifest for the Powenetics V2/V3 desktop apps. Served raw over HTTPS from this public repo so the in-app updater can read it anonymously (the app source repos are private). PresentMon is intentionally NOT listed - it comes straight from Intel's public GameTechDev/PresentMon releases API. Every url MUST be https; the app rejects plain HTTP, rejects any download whose sha256 does not match, and additionally requires a valid Authenticode signature for RTSS (MICRO-STAR INTERNATIONAL). Entries below are seeded to the versions currently shipping, so a check reports 'up to date' until you publish something newer.",
+
+  "rtss": {
+    "version": "7.3.5.28314",
+    "url": "https://github.com/crmaris/powenetics-updates/releases/download/rtss-7.3.5.28314/RTSS-7.3.5.28314.zip",
+    "sha256": "",
+    "notes": "Matches the RTSS runtime currently bundled with the apps. Publish a newer zip with updates/New-RtssManifestEntry.ps1 (it computes the sha256) and bump this entry."
+  },
+
+  "apps": {
+    "powenetics-v2": {
+      "version": "22.87",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.87/Powenetics_V2_Setup_v22.87.exe",
+      "sha256": "",
+      "notes": "Powenetics V2 installer. Build with installer/Powenetics_V2.iss, attach to a Release here, then set version + sha256."
+    },
+    "powenetics-v3": {
+      "version": "31.4",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v3-31.4/Powenetics_V3_Setup_v31.4.exe",
+      "sha256": "",
+      "notes": "Powenetics V3 installer. Build with build/pack-release.ps1, attach to a Release here, then set version + sha256."
+    }
+  }
+}
