@@ -23,9 +23,9 @@
       "notes": "Powenetics V3 installer. Build with build/pack-release.ps1, attach to a Release here, then set version + sha256."
     },
     "pcue": {
-      "version": "1.3.7",
-      "url": "https://github.com/crmaris/pCUE/releases/download/v1.3.7/pCUE_1.3.7_setup.exe",
-      "sha256": "E7D4947113B8AF9EE12716D70365580D5B786D8233253F71DE1B58F79E3E4544",
+      "version": "1.3.8",
+      "url": "https://github.com/crmaris/pCUE/releases/download/v1.3.8/pCUE_1.3.8_setup.exe",
+      "sha256": "15A74C16F936D5FF1898CFC944E8FA931F73BF43276EAA7C0A0422A2F7132CE1",
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     }
   }
