@@ -25,6 +25,12 @@
       "url": "https://github.com/crmaris/pCUE/releases/download/v1.5.0/pCUE_1.5.0_setup.exe",
       "sha256": "47552C5DB684FDFA0C1F3723C84EF4BEBE3FCE0C23174D0121217894C11C3D82",
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
+    },
+    "fanrpmcontrol": {
+      "version": "4.8.0.0",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/fanrpm-4.8.0.0/FanRpmControl_4.8.0.0_setup.exe",
+      "sha256": "93B6A80367EDC17061AAEDBFB62EF62DD105F34B198BDA9BE7F995C61E378BBB",
+      "notes": "Fan RPM Control installer. crmaris/FanRpmControl is PRIVATE, so the asset is hosted on this public repo (same pattern as powenetics-v2/v3). Build with packaging\\pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release HERE, then update this entry."
     }
   }
 }
