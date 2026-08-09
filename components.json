@@ -31,6 +31,12 @@
       "url": "https://github.com/crmaris/powenetics-updates/releases/download/fanrpm-4.8.0.0/FanRpmControl_4.8.0.0_setup.exe",
       "sha256": "93B6A80367EDC17061AAEDBFB62EF62DD105F34B198BDA9BE7F995C61E378BBB",
       "notes": "Fan RPM Control installer. crmaris/FanRpmControl is PRIVATE, so the asset is hosted on this public repo (same pattern as powenetics-v2/v3). Build with packaging\\pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release HERE, then update this entry."
+    },
+    "hwbcapture": {
+      "version": "1.0.0.0",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/hwbcapture-1.0.0.0/HWB_Capture_1.0.0.0_setup.exe",
+      "sha256": "AFC0E94AC24118923C679AD4E826DD5C62E0E7E969F882412E9B84B42B86C2AC",
+      "notes": "Initial HWB Capture release. The installer is hosted here because Hardware-Busters/HWBCapture is private. This initial package is unsigned; HWB Capture requires SHA-256 verification plus separate install and unsigned-package confirmations."
     }
   }
 }
