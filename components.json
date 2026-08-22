@@ -16,9 +16,9 @@
     },
     "powenetics-v3": {
       "version": "31.5",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v3-31.5/Powenetics_V3_31.5_win-x64_setup.exe",
-      "sha256": "3B7482FB7CC16432CE7BB8641D562A0A0CA98BC7F9AD064F55BD115853927868",
-      "notes": "Component updates for Powenetics/PresentMon/RTSS, updater fix, new icon."
+      "url": "",
+      "sha256": "",
+      "notes": "Powenetics V3 is not publicly released yet. This entry deliberately carries no url or sha256; it will be filled in with the first public V3 build."
     },
     "pcue": {
       "version": "1.5.1",
