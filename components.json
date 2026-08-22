@@ -3,9 +3,9 @@
   "_comment": "Update manifest for the Powenetics V2/V3 desktop apps. Served raw over HTTPS from this public repo so the in-app updater can read it anonymously (the app source repos are private). PresentMon is intentionally NOT listed - it comes straight from Intel's public GameTechDev/PresentMon releases API. Every url MUST be https; the app rejects plain HTTP, rejects any download whose sha256 does not match, and additionally requires a valid Authenticode signature for RTSS (MICRO-STAR INTERNATIONAL). Entries below are seeded to the versions currently shipping, so a check reports 'up to date' until you publish something newer.",
   "rtss": {
     "version": "7.3.5.28314",
-    "url": "",
-    "sha256": "",
-    "notes": "Placeholder matching the RTSS runtime currently bundled with the apps. No zip is published yet, so this entry deliberately carries no url or sha256. Publish one with build/New-RtssManifestEntry.ps1 (it computes the sha256) and fill both in."
+    "url": "https://github.com/crmaris/powenetics-updates/releases/download/rtss-7.3.5.28314/RTSS-7.3.5.28314.zip",
+    "sha256": "9BED7FEBAE0748A22C4CF9765CF25F5F169EC8196D33476BCF4058B705D3B844",
+    "notes": "RTSS 7.3.5.28314 - the runtime bundled with and vetted against Powenetics."
   },
   "apps": {
     "powenetics-v2": {
