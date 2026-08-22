@@ -9,16 +9,16 @@
   },
   "apps": {
     "powenetics-v2": {
-      "version": "22.87",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.87/Powenetics_V2_Setup_v22.87.exe",
-      "sha256": "",
-      "notes": "Powenetics V2 installer. Build with installer/Powenetics_V2.iss, attach to a Release here, then set version + sha256."
+      "version": "22.89",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.89/Powenetics_V2_Setup_v22.89.exe",
+      "sha256": "B1E82536F769AFCA17049DC15927088A318ADB6EE21C6155AD1ACF8690A1EEE9",
+      "notes": "Component updates for Powenetics/PresentMon/RTSS, updater fix, new icon."
     },
     "powenetics-v3": {
-      "version": "31.4",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v3-31.4/Powenetics_V3_Setup_v31.4.exe",
-      "sha256": "",
-      "notes": "Powenetics V3 installer. Build with build/pack-release.ps1, attach to a Release here, then set version + sha256."
+      "version": "31.5",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v3-31.5/Powenetics_V3_31.5_win-x64_setup.exe",
+      "sha256": "3B7482FB7CC16432CE7BB8641D562A0A0CA98BC7F9AD064F55BD115853927868",
+      "notes": "Component updates for Powenetics/PresentMon/RTSS, updater fix, new icon."
     },
     "pcue": {
       "version": "1.5.1",
