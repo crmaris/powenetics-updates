@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.6",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.6/Win11PerfWidget-v1.4.6-win-x64.msi",
-      "sha256": "007492C509E87B872CBE5CFEE774E73A17E8C9023D4921ED2AB51C8A01CB1078",
-      "notes": "Selectable MB temperature source with live sensor list and CLI controls; Windows 11 x64 and ARM-compatible through x64 emulation."
+      "version": "1.4.7",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.7/Win11PerfWidget-v1.4.7-win-x64.msi",
+      "sha256": "44365469EEF130C99438B70331A2D73E21813CA0A01FBCF9E25DC5A06FA9EBCD",
+      "notes": "Compact Clear History controls with single-column normal layout; Codex and Claude remain paired; XENEON full-screen layout remains fully occupied. Windows 11 x64 and ARM-compatible through x64 emulation."
     }
   }
 }
