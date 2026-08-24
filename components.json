@@ -21,9 +21,9 @@
       "notes": "Powenetics V3 is not publicly released yet. This entry deliberately carries no url or sha256; it will be filled in with the first public V3 build."
     },
     "pcue": {
-      "version": "1.5.1",
-      "url": "https://github.com/crmaris/pCUE/releases/download/v1.5.1/pCUE_1.5.1_setup.exe",
-      "sha256": "FCAFD6E1D9482B69BF195178E08AF645B25A1C5067DF83A95F288B87ACC87C87",
+      "version": "1.5.3",
+      "url": "https://github.com/crmaris/pCUE/releases/download/v1.5.3/pCUE_1.5.3_setup.exe",
+      "sha256": "5B39BF627E53E5816237D21C7E7850A8FF69ABD819AEF9ADBDBD865C16A8CE1C",
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
