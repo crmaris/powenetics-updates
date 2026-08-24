@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.9",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.9/Win11PerfWidget-v1.4.9-win-x64.msi",
-      "sha256": "4D18E83F37FF87162D4C1B4DD956D5FAB49726D189424B11588A1B0BC1FA4CA4",
-      "notes": "Per-tile font controls via each tile gear icon, thinner widget with adaptive Clear History buttons, readable dark-theme muted text, installer auto-launches the widget after install or upgrade. Windows 11 x64 and ARM-compatible through x64 emulation."
+      "version": "1.4.10",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.10/Win11PerfWidget-v1.4.10-win-x64.msi",
+      "sha256": "E6BA24E7F9274728E01072B4728F492E52761F02B966BE30BE9EC256EA072A85",
+      "notes": "Readable Settings dropdowns on the dark theme (themed ComboBox template). Windows 11 x64 and ARM-compatible through x64 emulation."
     }
   }
 }
