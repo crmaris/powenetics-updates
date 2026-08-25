@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.18",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.18/Win11PerfWidget-v1.4.18-win-x64.msi",
-      "sha256": "27B2EDC21B3E6EDB3CD9E1E3693AD94577A47F25A1671D256A90B22C6BA34EA4",
-      "notes": "Prevents a fatal native access violation in AMD GPU polling. CPU, motherboard, storage, Intel GPU, and NVIDIA GPU telemetry remain enabled; AMD GPU telemetry fails closed as unavailable instead of terminating the widget."
+      "version": "1.4.19",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.19/Win11PerfWidget-v1.4.19-win-x64.msi",
+      "sha256": "5DD58DE9DAFFC6DFA6D3BF3D2301E11517F2CE7617E094093526D0AB3602A41C",
+      "notes": "Restores motherboard Super I/O and embedded-controller temperature channels by refreshing child hardware before reading sensors. The AMD GPU native-crash guard remains active."
     }
   }
 }
