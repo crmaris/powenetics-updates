@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.15",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.15/Win11PerfWidget-v1.4.15-win-x64.msi",
-      "sha256": "087E1726BCC4015A2178BFA0ABBB56B9AA303C396BFE0C944EAA9E347B897B68",
-      "notes": "Per-display tile font profiles (each screen remembers its own sizes) and click-outside-closes Settings. Windows 11 x64 and ARM-compatible through x64 emulation."
+      "version": "1.4.16",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.16/Win11PerfWidget-v1.4.16-win-x64.msi",
+      "sha256": "7A3A4EF90BDBFB9381C3E1B2CD89708F70365A19F29C984FED6E0D500A23378B",
+      "notes": "Correct per-display tile profiles: first edits create a display profile, profile switches reset missing overrides to base values, and stable monitor identities replace DISPLAY# slots."
     }
   }
 }
