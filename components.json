@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.22",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.22/Win11PerfWidget-v1.4.22-win-x64.msi",
-      "sha256": "868BC2D9B1790425B9C8C4F3C0B032926BF73B47CB3D6F9D8C49913795FD9DFF",
-      "notes": "Adds an optional notification-area icon, safe reopen/exit paths, and configurable temperature readings."
+      "version": "1.4.23",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.23/Win11PerfWidget-v1.4.23-win-x64.msi",
+      "sha256": "F9CB9DCA35FA14EFD9F2966D5619CF36A1F74BB1FE8A5A28147486C0A7DCC1F3",
+      "notes": "Shows only installed Chrome and Firefox history buttons, with All available when both are installed."
     }
   }
 }
