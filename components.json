@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.26",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.26/Win11PerfWidget-v1.4.26-win-x64.msi",
-      "sha256": "CA624966BAC20D87C4526D0D5EA18353DAEEAEFA8A2115433CC8D0D89644570C",
-      "notes": "Fits the enlarged Temperatures settings menu within the 720-pixel XENEON EDGE display using two columns."
+      "version": "1.4.27",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.27/Win11PerfWidget-v1.4.27-win-x64.msi",
+      "sha256": "AFFD2BA7A5F0D2DD81E4C6AEE234AEE4395CA59B1CA8513EF178C41A11DBC764",
+      "notes": "Adds an all-users Desktop shortcut during installation and upgrade; uninstall removes it automatically."
     }
   }
 }
