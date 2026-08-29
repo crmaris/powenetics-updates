@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.29",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.29/Win11PerfWidget-v1.4.29-win-x64.msi",
-      "sha256": "52BE7D02303EB705790CAD3997FECD638C40306B817D9C9B60FB7C3738715C16",
-      "notes": "Keeps the widget in the Windows notification area without a taskbar button, while retaining reliable last-position restore and background autostart initialization."
+      "version": "1.4.31",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.31/Win11PerfWidget-v1.4.31-win-x64.msi",
+      "sha256": "3927E2AEC551060564C5406211F760BD6402249B8D96A472C4B333699611434A",
+      "notes": "Corrects duplicated network throughput from Windows filter bindings and makes Start with Windows open the taskbar-free widget visibly at its saved position."
     }
   }
 }
