@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.32",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.32/Win11PerfWidget-v1.4.32-win-x64.msi",
-      "sha256": "6108445DC8C4241D45D20445E46AA3FE4CC4A361E5A7FAA301F505DA145D8390",
-      "notes": "Adds compact, readable CPU and GPU utilization to the existing CPU tile without increasing its height; both values honor the per-box Reading text-size setting and unavailable GPU load shows N/A."
+      "version": "1.4.33",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.33/Win11PerfWidget-v1.4.33-win-x64.msi",
+      "sha256": "4B76C12DFDE32D879386A27BB455D788975B1BEC6F40F224F9E43B2101E03D6A",
+      "notes": "Keeps Firefox and Chrome history clearing responsive, shows progress and completion inline, prevents overlapping clears, and bounds browser shutdown waiting to five seconds for the full process group."
     }
   }
 }
