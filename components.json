@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.34",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.34/Win11PerfWidget-v1.4.34-win-x64.msi",
-      "sha256": "910AFA1404EB2C8098C6142E41648694AA30BEF2EFD88CCC103675937FAD01B9",
-      "notes": "Removes the Open Codex button from the Codex usage box while preserving the usage percentage, today token total, and existing box size."
+      "version": "1.4.35",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.35/Win11PerfWidget-v1.4.35-win-x64.msi",
+      "sha256": "B036ABD3618DC1F7EB221BD055BAAECD5D1AE8DF045ED25C3015D6E9A3FEBE69",
+      "notes": "Fixes Codex usage refresh, preserves independent quota and token updates, and refreshes local readings every 15 seconds."
     }
   }
 }
