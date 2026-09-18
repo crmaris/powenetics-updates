@@ -9,10 +9,10 @@
   },
   "apps": {
     "powenetics-v2": {
-      "version": "22.91",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.91/Powenetics_V2_Setup_v22.91.exe",
-      "sha256": "7FD2ED513148B16DF02053DF9A7AE5770776664BCD2313676BF665A0EC3D1ABE",
-      "notes": "PMD board auto-find (Find button, startup auto-select) plus last-used COM port remembered by name."
+      "version": "22.92",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.92/Powenetics_V2_Setup_v22.92.exe",
+      "sha256": "43F381581904DDCC9910F8D41D04B96AD1B3F10A4605306AB886A5A850D84436",
+      "notes": "PMD auto-find no longer opens Bluetooth serial ports, tries the board's USB id first, and wakes an idle board the same way Open does (respects Calibration Mode)."
     },
     "powenetics-v3": {
       "version": "31.5",
