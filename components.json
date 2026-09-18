@@ -9,10 +9,10 @@
   },
   "apps": {
     "powenetics-v2": {
-      "version": "22.90",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.90/Powenetics_V2_Setup_v22.90.exe",
-      "sha256": "2DA7940FE21894FA2CA27E070040B397C6E73744C27F202BB52EDC6015EE9AAF",
-      "notes": "Stability and security hardening for logging, FPS and telemetry concurrency, process and shutdown recovery, loopback remote control, and component downloads."
+      "version": "22.91",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.91/Powenetics_V2_Setup_v22.91.exe",
+      "sha256": "7FD2ED513148B16DF02053DF9A7AE5770776664BCD2313676BF665A0EC3D1ABE",
+      "notes": "PMD board auto-find (Find button, startup auto-select) plus last-used COM port remembered by name."
     },
     "powenetics-v3": {
       "version": "31.5",
