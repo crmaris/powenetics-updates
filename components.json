@@ -27,10 +27,10 @@
       "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
     },
     "win11perfwidget": {
-      "version": "1.4.38",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.38/Win11PerfWidget-v1.4.38-win-x64.msi",
-      "sha256": "EE705FF4A87AF43E478946BE41A24D5615204FC104FDA843B345AFC6C0F48767",
-      "notes": "AMD Radeon 8060S/Halo temperature, GPU load, and VRAM used/total plus percentage via isolated AMD ADLX. Enable the GPU tile in Settings. Signed self-contained installer hosted publicly because the source repository is private."
+      "version": "1.4.39",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/win11perfwidget-1.4.39/Win11PerfWidget-v1.4.39-win-x64.msi",
+      "sha256": "8DEFE976009388306381F17FC1CD48E0C1AA59D586D39A8913A9374D700DDA7B",
+      "notes": "RAM Usage and VRAM Usage side by side, with independent percentages and used/total GB. Existing memory tile settings and position are preserved; no optional GPU tile needed. Signed installer hosted publicly because the source is private."
     }
   }
 }
