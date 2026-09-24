@@ -21,10 +21,10 @@
       "notes": "Powenetics V3 is not publicly released yet. This entry deliberately carries no url or sha256; it will be filled in with the first public V3 build."
     },
     "pcue": {
-      "version": "1.6.3",
-      "url": "https://github.com/crmaris/pCUE/releases/download/v1.6.3/pCUE_1.6.3_setup.exe",
-      "sha256": "2AFBA220A3EB3E7783D128756F0FA48036EF8A40392C251B39467CB3A2FE4F68",
-      "notes": "pCUE installer. Unlike the Powenetics repos, crmaris/pCUE is PUBLIC, so its release assets are hosted there rather than here. Build with build/pack-release.ps1 (it prints version + sha256), attach the setup .exe to a Release on crmaris/pCUE, then update this entry."
+      "version": "1.6.7",
+      "url": "https://github.com/crmaris/pCUE/releases/download/v1.6.7/pCUE_1.6.7_setup.exe",
+      "sha256": "3E2FF5FEA5D609443E6BDCAF07DD76FB90B71AFDFFB010B11C97F0513BE706CD",
+      "notes": "Protected four-pin fixed-RPM acquisition tolerates unavailable duty readback while preserving verified zero stop. The stability window starts with in-target RPM feedback. Sound-PC 2270 run completed with valid saved 1000/1400 RPM acoustic points and confirmed fixture release."
     },
     "win11perfwidget": {
       "version": "1.4.39",
