@@ -33,10 +33,10 @@
       "notes": "RAM Usage and VRAM Usage side by side, with independent percentages and used/total GB. Existing memory tile settings and position are preserved; no optional GPU tile needed. Signed installer hosted publicly because the source is private."
     },
     "fanrpmcontrol": {
-      "version": "6.6.0.0",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/fanrpmcontrol-6.6.0/FanRpmControl_6.6.0.0_setup.exe",
-      "sha256": "086F173992CEE0B053E11D34B4E675297F144F1C3E11DB5EBB74206F1803EAE3",
-      "notes": "Cable-polarity confirmation removed at owner request; banner Check-updates button, CLI discover + SSE streaming, .NET 10 throughout."
+      "version": "6.7.0.0",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/fanrpmcontrol-6.7.0/FanRpmControl_6.7.0.0_setup.exe",
+      "sha256": "874EC353ED4FD0DF1D46223763AA11E3B8FB669CFCD42AE247E30AB499529825",
+      "notes": "One update button: the banner checks when nothing is pending and installs (SHA-256 verified, confirmed) when an update is available. Polarity interlock removed, CLI discover + SSE streaming, .NET 10 throughout."
     }
   }
 }
