@@ -1,0 +1,11 @@
+.codex/
+.codex-*/
+.agents/
+.claude/worktrees/
+.worktrees/
+*-temp/
+*-temp-*/
+NuGetScratch/
+dotnet-temp*/
+msbuild-temp*/
+.build-tmp/
