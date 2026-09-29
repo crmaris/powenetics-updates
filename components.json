@@ -15,10 +15,10 @@
       "notes": "PMD auto-find no longer opens Bluetooth serial ports, tries the board's USB id first, and wakes an idle board the same way Open does (respects Calibration Mode)."
     },
     "powenetics-v3": {
-      "version": "31.5",
-      "url": "",
-      "sha256": "",
-      "notes": "Powenetics V3 is not publicly released yet. This entry deliberately carries no url or sha256; it will be filled in with the first public V3 build."
+      "version": "31.50.1",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v3-31.50.1/Powenetics_V3_31.50.1_win-x64_setup.exe",
+      "sha256": "AFFD979A4B739A2E87C4064A26C29DBC9480BAC29414339823CD65939549A947",
+      "notes": "Initial public V3 release. Self-contained Windows x64 app and CLI updater, validated log loading and mainboard streaming. V3 hardware only; electrical accuracy and fan/BNC/PicoScope bench validation remain open."
     },
     "pcue": {
       "version": "1.6.7",

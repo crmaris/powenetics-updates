@@ -19,8 +19,12 @@ in-app updater can reach them anonymously.
 | **Powenetics app** | `apps` entry below | SHA-256 from the manifest |
 
 Updates are **never** installed silently: the app only checks, then reports. Downloading and
-installing happens after an explicit click, and every download is rejected unless its hash and
-signature match.
+installing happens after an explicit click, and each component must pass the verification
+listed in the table above.
+
+The [Powenetics V3 31.50.1 release](https://github.com/crmaris/powenetics-updates/releases/tag/v3-31.50.1)
+includes an installer and portable ZIP. Both contain the self-contained Windows x64 app
+and command-line updater.
 
 ## Manifest
 
