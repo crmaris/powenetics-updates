@@ -21,10 +21,10 @@
       "notes": "Initial public V3 release. Self-contained Windows x64 app and CLI updater, validated log loading and mainboard streaming. V3 hardware only; electrical accuracy and fan/BNC/PicoScope bench validation remain open."
     },
     "pcue": {
-      "version": "1.7.1",
-      "url": "https://github.com/crmaris/pCUE/releases/download/v1.7.1/pCUE_1.7.1_setup.exe",
-      "sha256": "99678A3AB1C5C1F0A12C4615ED99EF0902DFE58C8AF2FBAD8CAEAC48093C99FA",
-      "notes": "Shared Commander CORE/XT and be quiet IO Center percentage panel with exact remembered controller identity, paired IO pump/fan ownership and retained recovery. Includes reconnect recovery, verified installer signer checks and busy-controller update guards. Locally validated; CORE/XT experimental and no live USB validation in the ports. Unsigned installer."
+      "version": "1.7.2",
+      "url": "https://github.com/crmaris/pCUE/releases/download/v1.7.2/pCUE_1.7.2_setup.exe",
+      "sha256": "68B2EA8825E7384849137CE9C00860DB70497262B378118A0A9B8F931E4973C8",
+      "notes": "Shared OCTO and motherboard controls join Commander CORE/XT and commissioned be quiet IO, with exact remembered selection and retained recovery after partial failure. Preserves selected original settings, other ports, CPU telemetry and pinned dependencies. Locally validated; no physical validation of the new ports. Unsigned installer."
     },
     "win11perfwidget": {
       "version": "1.4.39",
