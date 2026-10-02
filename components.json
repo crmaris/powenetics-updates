@@ -21,10 +21,10 @@
       "notes": "Initial public V3 release. Self-contained Windows x64 app and CLI updater, validated log loading and mainboard streaming. V3 hardware only; electrical accuracy and fan/BNC/PicoScope bench validation remain open."
     },
     "pcue": {
-      "version": "1.7.2",
-      "url": "https://github.com/crmaris/pCUE/releases/download/v1.7.2/pCUE_1.7.2_setup.exe",
-      "sha256": "68B2EA8825E7384849137CE9C00860DB70497262B378118A0A9B8F931E4973C8",
-      "notes": "Shared OCTO and motherboard controls join Commander CORE/XT and commissioned be quiet IO, with exact remembered selection and retained recovery after partial failure. Preserves selected original settings, other ports, CPU telemetry and pinned dependencies. Locally validated; no physical validation of the new ports. Unsigned installer."
+      "version": "1.7.3",
+      "url": "https://github.com/crmaris/pCUE/releases/download/v1.7.3/pCUE_1.7.3_setup.exe",
+      "sha256": "72C17E2EE793D817E2E3A866F9359C95D327A2C4FDD788D18A07B61F46767F92",
+      "notes": "Adds the Corsair iCUE LINK System Hub to the cooling-controller panel (close iCUE first; fan and pump percentages are stored in the hub and the previous state is restored). Shared controller source revision 7. Commander PRO window, fixed-RPM hold, tachometer, acquisition, remote API and CLI are unchanged. Locally validated; the LINK driver was measured on one hub through the Case Tests application, not from pCUE. Unsigned installer."
     },
     "win11perfwidget": {
       "version": "1.4.39",
