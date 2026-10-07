@@ -22,6 +22,14 @@ Updates are **never** installed silently: the app only checks, then reports. Dow
 installing happens after an explicit click, and each component must pass the verification
 listed in the table above.
 
+pCUE 1.7.4 adds an explicitly requested unattended update mode. Its installed Windows
+app installs verified packages when cooling is idle; its Linux Debian timer updates
+only while the app is closed and saved recovery is complete. The Linux portable
+app verifies and prepares the new runtime before exiting and restarting. Linux
+packages use the separate `apps.pcue-linux` entry with Debian `url`/`sha256` and
+portable `portableUrl`/`portableSha256` fields. Other applications keep their own
+existing confirmation behavior.
+
 The [Powenetics V3 31.50.1 release](https://github.com/crmaris/powenetics-updates/releases/tag/v3-31.50.1)
 includes an installer and portable ZIP. Both contain the self-contained Windows x64 app
 and command-line updater.

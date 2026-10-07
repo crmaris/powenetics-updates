@@ -21,10 +21,10 @@
       "notes": "Initial public V3 release. Self-contained Windows x64 app and CLI updater, validated log loading and mainboard streaming. V3 hardware only; electrical accuracy and fan/BNC/PicoScope bench validation remain open."
     },
     "pcue": {
-      "version": "1.7.3",
-      "url": "https://github.com/crmaris/pCUE/releases/download/v1.7.3/pCUE_1.7.3_setup.exe",
-      "sha256": "72C17E2EE793D817E2E3A866F9359C95D327A2C4FDD788D18A07B61F46767F92",
-      "notes": "Adds the Corsair iCUE LINK System Hub to the cooling-controller panel (close iCUE first; fan and pump percentages are stored in the hub and the previous state is restored). Shared controller source revision 7. Commander PRO window, fixed-RPM hold, tachometer, acquisition, remote API and CLI are unchanged. Locally validated; the LINK driver was measured on one hub through the Case Tests application, not from pCUE. Unsigned installer."
+      "version": "1.7.4",
+      "url": "https://github.com/crmaris/pCUE/releases/download/v1.7.4/pCUE_1.7.4_setup.exe",
+      "sha256": "1A8AAC8A4CC35AAFDCAD57A62842EE42EB0D94303A777664FA5BF0AD25C97C48",
+      "notes": "Adds the native Linux desktop and unattended updates. Installed Windows copies silently update and restart only with disconnected controllers, no RPM hold/acquisition and completed recovery. Existing shared controller revision 7 and pinned dependencies are unchanged. Unsigned installer; locally validated."
     },
     "win11perfwidget": {
       "version": "1.4.39",
@@ -37,7 +37,14 @@
       "url": "https://github.com/crmaris/powenetics-updates/releases/download/fanrpmcontrol-6.7.0/FanRpmControl_6.7.0.0_setup.exe",
       "sha256": "874EC353ED4FD0DF1D46223763AA11E3B8FB669CFCD42AE247E30AB499529825",
       "notes": "One update button: the banner checks when nothing is pending and installs (SHA-256 verified, confirmed) when an update is available. Polarity interlock removed, CLI discover + SSE streaming, .NET 10 throughout."
+    },
+    "pcue-linux": {
+      "version": "1.7.4",
+      "url": "https://github.com/crmaris/pCUE/releases/download/v1.7.4/pcue-linux_1.7.4_amd64.deb",
+      "sha256": "A35D2FF213705611A79F9ECB8A2FB58AB6580599B981DB8DF32C0B8959D19D29",
+      "portableUrl": "https://github.com/crmaris/pCUE/releases/download/v1.7.4/pCUE_1.7.4_linux-x64.tar.gz",
+      "portableSha256": "EF9D4CED93C6832F5A5A52C467F3ADE6F138FD4252A315C2F038DF65B86D6F43",
+      "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     }
   }
 }
-
