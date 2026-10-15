@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.2",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.2/MuseDesktop-Setup-0.1.2.exe",
-      "sha256": "cb5ac50786fba867f36d5a7bd08757721934740d24f3e54093aea077baa1bd1c",
-      "size": 94219537,
-      "notes": "Sessions started in other apps (OpenCode, Codex and Claude Code helper calls) are hidden by default, with a Show line, and search still finds them. Includes the session menu on every surface, the per-model filter and the sandbox self-test fix of 0.1.1. Unsigned installer: SmartScreen asks once."
+      "version": "0.1.3",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.3/MuseDesktop-Setup-0.1.3.exe",
+      "sha256": "66006ac8b1638df6612fe82c1bafe889970ee8dbd72bbfea085fd88e91b37297",
+      "size": 94222077,
+      "notes": "One theme source for the page and the native window controls, a command-line driver for testing the app with screenshots, hidden test windows, and focus returns to the session row after its menu closes. Includes 0.1.2: sessions started in other apps are hidden by default. Unsigned installer: SmartScreen asks once."
     }
   }
 }
