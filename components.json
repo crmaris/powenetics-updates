@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.0",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.0/MuseDesktop-Setup-0.1.0.exe",
-      "sha256": "b9171012fa7f21d90894d4c4c0e00de44b2807a42c942ae515d6938e3899c72f",
-      "size": 94207516,
-      "notes": "First release of Muse Desktop: a desktop app for Meta's Muse Code models (Wonder and Wonder Full), with Codex, OpenCode and Claude Code as additional providers through their own programs. Unsigned installer: SmartScreen asks once."
+      "version": "0.1.1",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.1/MuseDesktop-Setup-0.1.1.exe",
+      "sha256": "73ab63bb90bfb3c1a6b8e362f24b6f1f70a28381b1eeaecac6b6878fbbe830af",
+      "size": 94216546,
+      "notes": "Right-click menu on every session surface (sidebar, tabs, split header, board, title, palette) with pin, rename, archive, mark unread, new tab, split, fork, new session here, copy ID, folder and link, and reveal in Explorer. Filter sessions per model. The sandbox self-test no longer says working when Muse's default profile skips the sandbox. Archived list raised to 20000. Unsigned installer: SmartScreen asks once."
     }
   }
 }
