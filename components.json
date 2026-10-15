@@ -45,6 +45,13 @@
       "portableUrl": "https://github.com/crmaris/pCUE/releases/download/v1.7.4/pCUE_1.7.4_linux-x64.tar.gz",
       "portableSha256": "EF9D4CED93C6832F5A5A52C467F3ADE6F138FD4252A315C2F038DF65B86D6F43",
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
+    },
+    "musedesktop": {
+      "version": "0.1.0",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.0/MuseDesktop-Setup-0.1.0.exe",
+      "sha256": "b9171012fa7f21d90894d4c4c0e00de44b2807a42c942ae515d6938e3899c72f",
+      "size": 94207516,
+      "notes": "First release of Muse Desktop: a desktop app for Meta's Muse Code models (Wonder and Wonder Full), with Codex, OpenCode and Claude Code as additional providers through their own programs. Unsigned installer: SmartScreen asks once."
     }
   }
 }
