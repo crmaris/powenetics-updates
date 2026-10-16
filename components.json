@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.5",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.5/MuseDesktop-Setup-0.1.5.exe",
-      "sha256": "f5dd7857edc2f0d48ca848c4ec65ac5f72cacab8eeea95a5fa216396615f7798",
-      "size": 94244274,
-      "notes": "Fixes the freeze at start-up: the app no longer reopens a very large last session by itself (it offers it instead), so the session list, models and usage answer straight away. Sessions under 32 MB reopen as before. Choosing the model before a session, the colour picker and the Warm Charcoal / Warm Ivory themes came in 0.1.4."
+      "version": "0.1.6",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.6/MuseDesktop-Setup-0.1.6.exe",
+      "sha256": "20751a78b4e15cb58980a0c413d790a07bf2626035801dc962ba343636c27023",
+      "size": 94250000,
+      "notes": "A very large session you open on purpose now loads on its own Muse process, so the session list, model picker and search keep working while it loads, and the pane shows 'Loading a large session' with the seconds waited. Try again on 'could not be opened' works again. Builds on 0.1.5, which stops a large last session from reopening by itself at start-up."
     }
   }
 }
