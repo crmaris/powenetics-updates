@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.3",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.3/MuseDesktop-Setup-0.1.3.exe",
-      "sha256": "66006ac8b1638df6612fe82c1bafe889970ee8dbd72bbfea085fd88e91b37297",
-      "size": 94222077,
-      "notes": "One theme source for the page and the native window controls, a command-line driver for testing the app with screenshots, hidden test windows, and focus returns to the session row after its menu closes. Includes 0.1.2: sessions started in other apps are hidden by default. Unsigned installer: SmartScreen asks once."
+      "version": "0.1.4",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.4/MuseDesktop-Setup-0.1.4.exe",
+      "sha256": "27d7d57d96ba4912e081b2641481d8eb58a17001349558f462c6c7b23e47cda6",
+      "size": 94245125,
+      "notes": "Choose the model before you start a session, on the New-session screen. Faster start-up: other apps' sessions are not loaded at start, each provider has its own time limit with a Retry button. A colour picker for every colour setting, text colours under Settings > Fonts, and new Warm Charcoal and Warm Ivory default themes."
     }
   }
 }
