@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.7",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.7/MuseDesktop-Setup-0.1.7.exe",
-      "sha256": "5d272fe84cf2b1bb435afb0a98a0d30cb53920eee75b27e77d5fbfaed500a448",
-      "size": 94250963,
-      "notes": "New setting 'Reopen big sessions at start-up' (off by default): when on, a very large last session reopens by itself on its own Muse process, so the rest of the app stays responsive. Background readers (automation, the PR bar, next-prompt prediction) no longer read a large unloaded session on the main Muse process: automation uses the separate process, prediction and the PR bar skip it."
+      "version": "0.1.8",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.8/MuseDesktop-Setup-0.1.8.exe",
+      "sha256": "14fe11287e7fa72bc530b73c223684fe3d44c7b90e6c1b1d44694af129705d6d",
+      "size": 94249185,
+      "notes": "Reopen the session that was open can now be switched off: with it unticked nothing is reopened at start-up and the split pane stays closed. Fixed the start-up timing so a setting you just changed is respected before anything opens."
     }
   }
 }
