@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.8",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.8/MuseDesktop-Setup-0.1.8.exe",
-      "sha256": "14fe11287e7fa72bc530b73c223684fe3d44c7b90e6c1b1d44694af129705d6d",
-      "size": 94249185,
-      "notes": "Reopen the session that was open can now be switched off: with it unticked nothing is reopened at start-up and the split pane stays closed. Fixed the start-up timing so a setting you just changed is respected before anything opens."
+      "version": "0.1.9",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.9/MuseDesktop-Setup-0.1.9.exe",
+      "sha256": "3d0cdd3e9978be6cc9b0ed98900d741a1e34ffbfb3148c6aacb59862fe957c14",
+      "size": 94255513,
+      "notes": "Muse Desktop 0.1.9\n\nSend ASAP messages into a running task, with ordinary queued messages preserved.\nUse the visible Compact button and see progress summaries while a response is running.\nMuse models default to High reasoning where supported, with complete, detailed response preferences.\nMuse Spark 1.3 Contributor is available through the existing contributor consent control.\nLocal AI brings configured cluster and Rendering PC models into one category.\nMuse startup usage shows its last observation with a timestamp; Codex shows its native quota windows, including weekly-only accounts.\nUpdated for Muse CLI 1.4.10. CLI updates refresh the host/catalog and check for a desktop update. Sandbox proof is checked again for a new binary.\nContext memory and the provider's maximum reply length are labelled separately.\n\nSHA-256: 3d0cdd3e9978be6cc9b0ed98900d741a1e34ffbfb3148c6aacb59862fe957c14\nSize: 94255513 bytes"
     }
   }
 }
