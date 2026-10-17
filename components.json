@@ -9,10 +9,10 @@
   },
   "apps": {
     "powenetics-v2": {
-      "version": "22.92",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.92/Powenetics_V2_Setup_v22.92.exe",
-      "sha256": "43F381581904DDCC9910F8D41D04B96AD1B3F10A4605306AB886A5A850D84436",
-      "notes": "PMD auto-find no longer opens Bluetooth serial ports, tries the board's USB id first, and wakes an idle board the same way Open does (respects Calibration Mode)."
+      "version": "22.93",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.93/Powenetics_V2_Setup_v22.93.exe",
+      "sha256": "B8A4CE8648AEBADAD6C93E59E0EE0D93619494F4B3F8338029C82078EC40F6E2",
+      "notes": "NEW and UNTESTED: an experimental revive guide for a PMD stuck in firmware update mode. It has never been tried on a real board; use it entirely at your own responsibility. Also bundles PresentMon 2.6.0."
     },
     "powenetics-v3": {
       "version": "31.50.1",
