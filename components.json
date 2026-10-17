@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.6",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.6/MuseDesktop-Setup-0.1.6.exe",
-      "sha256": "20751a78b4e15cb58980a0c413d790a07bf2626035801dc962ba343636c27023",
-      "size": 94250000,
-      "notes": "A very large session you open on purpose now loads on its own Muse process, so the session list, model picker and search keep working while it loads, and the pane shows 'Loading a large session' with the seconds waited. Try again on 'could not be opened' works again. Builds on 0.1.5, which stops a large last session from reopening by itself at start-up."
+      "version": "0.1.7",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.7/MuseDesktop-Setup-0.1.7.exe",
+      "sha256": "5d272fe84cf2b1bb435afb0a98a0d30cb53920eee75b27e77d5fbfaed500a448",
+      "size": 94250963,
+      "notes": "New setting 'Reopen big sessions at start-up' (off by default): when on, a very large last session reopens by itself on its own Muse process, so the rest of the app stays responsive. Background readers (automation, the PR bar, next-prompt prediction) no longer read a large unloaded session on the main Muse process: automation uses the separate process, prediction and the PR bar skip it."
     }
   }
 }
