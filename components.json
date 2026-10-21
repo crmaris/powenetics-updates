@@ -47,11 +47,11 @@
       "notes": "Ubuntu/Debian x64 native desktop with bundled .NET 10. Debian scheduled updates defer while the GUI runs or recovery is pending; portable updates prepare and verify the runtime before restarting. USB control is experimental and physical Linux commissioning is pending. Be quiet IO, motherboard PWM and local acoustic leases are unavailable."
     },
     "musedesktop": {
-      "version": "0.1.9",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.9/MuseDesktop-Setup-0.1.9.exe",
-      "sha256": "3d0cdd3e9978be6cc9b0ed98900d741a1e34ffbfb3148c6aacb59862fe957c14",
-      "size": 94255513,
-      "notes": "Muse Desktop 0.1.9\n\nSend ASAP messages into a running task, with ordinary queued messages preserved.\nUse the visible Compact button and see progress summaries while a response is running.\nMuse models default to High reasoning where supported, with complete, detailed response preferences.\nMuse Spark 1.3 Contributor is available through the existing contributor consent control.\nLocal AI brings configured cluster and Rendering PC models into one category.\nMuse startup usage shows its last observation with a timestamp; Codex shows its native quota windows, including weekly-only accounts.\nUpdated for Muse CLI 1.4.10. CLI updates refresh the host/catalog and check for a desktop update. Sandbox proof is checked again for a new binary.\nContext memory and the provider's maximum reply length are labelled separately.\n\nSHA-256: 3d0cdd3e9978be6cc9b0ed98900d741a1e34ffbfb3148c6aacb59862fe957c14\nSize: 94255513 bytes"
+      "version": "0.1.10",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/musedesktop-0.1.10/MuseDesktop-Setup-0.1.10.exe",
+      "sha256": "2afeb5aed35f2c61d22e27b8a5ad726eac271f2b0f99960c0dd49e3df726be69",
+      "size": 94277289,
+      "notes": "A Muse Code update no longer raises the 'protocol differs' warning when it only added things. Muse Desktop now compares the structure of Muse's own protocol schema once per Muse version and warns only when something it relies on was removed or made stricter. Includes the fixes from four review rounds."
     }
   }
 }
