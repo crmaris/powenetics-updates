@@ -9,10 +9,10 @@
   },
   "apps": {
     "powenetics-v2": {
-      "version": "22.94",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.94/Powenetics_V2_Setup_v22.94.exe",
-      "sha256": "8F34F0A1A4D401A33A3E41C11960968D4AB2898D589DBA1A67E1DA36EDF3B21C",
-      "notes": "Still UNTESTED: the experimental PMD revive guide has not yet succeeded on a real board; use it entirely at your own responsibility. 22.94 adds log, USB report and Save firmware hex buttons, a re-plug instruction between Step 1 and Step 2, and a more robust connection (stale-frame purge, stricter frame sync)."
+      "version": "22.95",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v2-22.95/Powenetics_V2_Setup_v22.95.exe",
+      "sha256": "B6DADCAFE0DF66B4D4CAC3D70A69D00EB6355017B1BB69D97D4023CFA901C44A",
+      "notes": "Still UNTESTED: the experimental PMD revive guide has not yet succeeded on a real board; use it entirely at your own responsibility. 22.95 adds a versioned read-only local shared-memory telemetry pool with event-driven changes, a 200 ms heartbeat and a validating PowerShell reader; it adds no external control."
     },
     "powenetics-v3": {
       "version": "31.50.1",
