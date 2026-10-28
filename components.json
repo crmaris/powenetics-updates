@@ -15,10 +15,10 @@
       "notes": "Still UNTESTED: the experimental PMD revive guide has not yet succeeded on a real board; use it entirely at your own responsibility. 22.95 adds a versioned read-only local shared-memory telemetry pool with event-driven changes, a 200 ms heartbeat and a validating PowerShell reader; it adds no external control."
     },
     "powenetics-v3": {
-      "version": "31.50.1",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v3-31.50.1/Powenetics_V3_31.50.1_win-x64_setup.exe",
-      "sha256": "AFFD979A4B739A2E87C4064A26C29DBC9480BAC29414339823CD65939549A947",
-      "notes": "Initial public V3 release. Self-contained Windows x64 app and CLI updater, validated log loading and mainboard streaming. V3 hardware only; electrical accuracy and fan/BNC/PicoScope bench validation remain open."
+      "version": "31.50.2",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/v3-31.50.2/Powenetics_V3_31.50.2_win-x64_setup.exe",
+      "sha256": "96A1BAFF6F1C8E71008ED05838E8FED5D2727B35514BB44D5D2E880BCDB8EF58",
+      "notes": "Read-only shared-memory monitoring with local CLI discovery/read/watch, prompt coalesced updates and a 200 ms heartbeat. Includes Modern Lab, corrected V3 log footer loading and PresentMon 2.6.0. Self-contained Windows x64 app and CLI; V3 only. Software tests/layout passed; physical commissioning remains pending. Unsigned packages."
     },
     "pcue": {
       "version": "1.7.4",
