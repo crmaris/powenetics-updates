@@ -33,10 +33,10 @@
       "notes": "RAM Usage and VRAM Usage side by side, with independent percentages and used/total GB. Existing memory tile settings and position are preserved; no optional GPU tile needed. Signed installer hosted publicly because the source is private."
     },
     "fanrpmcontrol": {
-      "version": "6.8.0.0",
-      "url": "https://github.com/crmaris/powenetics-updates/releases/download/fanrpmcontrol-6.8.0/FanRpmControl_6.8.0.0_setup.exe",
-      "sha256": "AFC4BFBBE9FDDB89A0902AF0ADCB2A36C88A4B13D3E1D2671E5A0581CC1216B7",
-      "notes": "Read-only shared-memory telemetry pool (application id fanrpm) so the family AI reader can see the bench; monitoring only, no command path, control behaviour unchanged. Adds the family reader script."
+      "version": "7.0.0.0",
+      "url": "https://github.com/crmaris/powenetics-updates/releases/download/fanrpmcontrol-7.0.0/FanRpmControl_7.0.0.0_setup.exe",
+      "sha256": "ACC6A1448FDBB7140D895B4106874824FA672177322A5B69594D6413DE12E071",
+      "notes": "Adds the method block (faganas-method/v1) to the read-only telemetry pool, with the auto-tune sweep as a checklist of its voltage points (plan.steps) for the lab live page; monitoring only, no command path, control behaviour unchanged."
     },
     "pcue-linux": {
       "version": "1.7.4",
